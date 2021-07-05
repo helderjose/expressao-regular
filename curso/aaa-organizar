@@ -1,0 +1,15 @@
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+auxValue = auxValue.replace(/\D+/g, "");
+
+
+--- exercícios fazer ---
+remover espaços no começo (left) da string.
+remover espaços no fim (right) da string.
+trim com regex.
+
+
+
+fazer
+permitir numero, virgula e porcentagem
+^([0-9,%]).replace('');

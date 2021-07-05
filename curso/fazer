@@ -1,0 +1,28 @@
+um texto com um link no meio, extrair o link
+
+Exemplo: Loren ipsum meu texto http://www.google.com tenho que remover o link usando regex.
+-----------------------------------------------------------------------------------
+
+
+pegar erro http 404, 500 e etc
+https://regex101.com/
+
+/^5\d*$/gm
+patt = /^4(\d){2}$/g; //400 ate 499. também posso usar parênteses patt = /^5((\d){2})$/g; //500 ate 599
+patt = /^5(\d){2}$/g; //500 ate 599
+
+404
+405
+406
+500
+501
+502
+509aaaa
+teste
+-------------------------------------------------------------------------------
+
+
+
+
+match
+https://www.w3schools.com/jsref/jsref_match.asp
