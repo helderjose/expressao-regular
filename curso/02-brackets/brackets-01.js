@@ -16,9 +16,9 @@ Tip: Use the [^abc] expression to find any character NOT between the brackets.
 Outros exemplos:
 /[h]/g;  //Do a global search for the character "h" in a string:
 
-Do a global search for the characters "i" and "s" in a string:
-dado: "Do you know if this is all there is?"
-/[is]/gi;  //i,i,s,i,s,i,s
+
+
+ESTOU PASSANDO OS EXEMPLOS ABAIXO PARA O CÓDIGO CONFORME VOU REVISANDO
 
 Do a global search for the character-span from lowercase "a" to lowercase "h" in a string:
 dado: "Is this all there is?"
@@ -44,8 +44,16 @@ dado: "THIS This this"
 /[THIS]/gi  //T,H,I,S,T,h,i,s,t,h,i,s
 */
 
+
+// Do a global search for the characters "i" and "s" in a string:
+const ex1 = "Do you know if this is all there is?"
+const ex1Patt = /[is]/gi;
+const ex1Result = ex1.match(ex1Patt);
+console.log(ex1Result);			// [ 'i', 'i', 's', 'i', 's', 'i', 's' ]
+
+
 var str = "Is this all there is?";
 var patt1 = /[hi]/g;  // procura por h e por i
 var result = str.match(patt1);
 
-console.log(result); //h,i,h,i
+console.log(result);		// [ 'h', 'i', 'h', 'i' ]

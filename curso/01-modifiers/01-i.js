@@ -8,4 +8,5 @@ var str = "Is this all there is?";
 var patt = /is/gi;    //g global; i ignore case
 var result = str.match(patt);
 
+// "[Is] th[is] all there [is]?"
 console.log(result);    // Is, is, is
